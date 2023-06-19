@@ -1,0 +1,24 @@
+{
+  "name": "mongo-file-upload-with-gridfs",
+  "version": "1.0.0",
+  "description": "simple app to upload files to mongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev":"nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "gridfs-stream": "^1.1.1",
+    "method-override": "^3.0.0",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
